@@ -1,0 +1,21 @@
+{
+	"plugins": ["prettier-plugin-tailwindcss"],
+	"experimentalTernaries": true,
+	"experimentalOperatorPosition": "start",
+	"singleQuote": true,
+	"jsxSingleQuote": true,
+	"useTabs": true,
+	"tabWidth": 4,
+	"semi": false,
+	"importOrder": [
+		"^react$",
+		"<THIRD_PARTY_MODULES>",
+		"^lucide-react",
+		"^~/components/ui",
+		"^~/components",
+		"^[./]"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"tailwindStylesheet": "src/styles/globals.css"
+}
